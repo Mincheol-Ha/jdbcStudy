@@ -5,14 +5,14 @@ import lombok.Data;
 @Data
 public class Member {
 
-    private String memeberId;
+    private String memberId;
     private int money;
 
     public Member() {
     }
 
     public Member(String memeberId, int money) {
-        this.memeberId = memeberId;
+        this.memberId = memeberId;
         this.money = money;
     }
 }
