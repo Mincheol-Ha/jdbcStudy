@@ -59,6 +59,10 @@ public class SpringExceptionTranslatorTest {
            DataAccessException resultEx = exTranslator.translate("select", sql, e);
            log.info("resultEx", resultEx);
            assertThat(resultEx.getClass()).isEqualTo(BadSqlGrammarException.class);
+
+
        }
     }
+
+
 }
